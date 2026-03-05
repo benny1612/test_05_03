@@ -5,7 +5,7 @@ import { useMovieStore } from '../store/useMovieStore';
 
 export default function Home() {
   const setselectedMovie  =useMovieStore((state)=>state.setselectedMovie)
-  const { movies, error } = useGetData();
+  const { movies} = useGetData();
   const [search, setSearch] = useState('');
 
   const filteredMovies = movies.filter((movie) =>
