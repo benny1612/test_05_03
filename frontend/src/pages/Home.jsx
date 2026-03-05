@@ -42,7 +42,7 @@ export default function Home() {
       
                   className="w-full h-48 "
                 />
-                <h3 className="font-bold text-sm ">{movie.Title}</h3>
+                <h1 className="font-bold text-sm ">{movie.Title}</h1>
                 <p className="text-xs text-gray-500">{movie.Year}</p>
                 <p className="text-xs text-gray-400 mb-2">{movie.Genre}</p>
               </div>
